@@ -1,5 +1,4 @@
 body {
-    /*color: #fff;*/
     text-align: center;
     text-shadow: 0 1px 0px rgba(0,0,0,.5);
 }
@@ -22,7 +21,7 @@ header {
     transition: opacity .25s ease-in-out;
 }
 
-.btn-get-resume .btn {
+.cv-button .button {
     font-size: 1.3rem;
     opacity: .75;
     transition: opacity .25s ease-in-out;
@@ -30,11 +29,11 @@ header {
     font-family: sans-serif;
 }
 
-.btn-get-resume:hover {
+.bcv-button:hover {
     opacity: 0.5;
 }
 
-.btn {
+.button {
     display: inline-block;
     padding: 8px 18px;
     font-weight: normal;
@@ -93,4 +92,10 @@ ul {
 }
 .links li:hover {
     opacity: 2;
+}
+
+.ball {
+    position :absolute;
+    border-radius: 100%;
+    opacity: 0.7;
 }
